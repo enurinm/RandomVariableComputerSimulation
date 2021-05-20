@@ -9,8 +9,9 @@ public class RVSimulation {
 		n=2*(int)Math.pow(10, 5);
 		
 		//simulate 1
-		
-		System.out.println("(1) result: ");
+		CalcExp ce= new CalcExp();
+		double ceRes = ce.calcIntegralExp(n);
+		System.out.println("(1) result: "+ceRes);
 		
 		//simulate 2
 		CalcPi cp= new CalcPi();
