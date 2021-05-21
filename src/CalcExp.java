@@ -1,11 +1,10 @@
 
 public class CalcExp {
 	private double X;
-	private double Z;
+	private double W;
 
 	private void setX() {
 		this.X = Math.random();
-//		this.Y = Math.random();
 	}
 	
 	double exp0_1() {
@@ -23,7 +22,7 @@ public class CalcExp {
 			sum+=exp0_1();
 		}
 		
-		Z=sum/n;
-		return Z;
+		W=sum/n;
+		return W;
 	}
 }
